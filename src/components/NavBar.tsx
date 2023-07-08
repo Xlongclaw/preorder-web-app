@@ -1,9 +1,14 @@
 import React from 'react'
+import Logo from './Logo'
+import NavBarLinks from './NavBarLinks'
 
-const NavBar = () => {
+
+
+const NavBar:React.FC = () => {
   return (
-    <div>
-      NAV
+    <div className='flex justify-between pl-32 py-6 items-center'>
+      <Logo/>
+      <NavBarLinks/>
     </div>
   )
 }
