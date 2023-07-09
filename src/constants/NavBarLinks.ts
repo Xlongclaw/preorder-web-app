@@ -15,6 +15,10 @@ const Links = [
         title:"About",
         link:"/about"
     },
+    {
+        title:"Login",
+        link:"/login"
+    },
 
 ]
 export default Links;

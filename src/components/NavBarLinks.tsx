@@ -12,7 +12,7 @@ const NavBarLinks:React.FC = () => {
           <NavLink key={link.title} to={link.link}>{link.title}</NavLink>)
       }
       <FiSearch size={24}/>
-      <FiMenu className='mx-16' size={28}/>
+      <FiMenu className='mx-12' size={28}/>
     </div>
   )
 }

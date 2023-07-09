@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button: React.FC<{
-  children: string;
+  children: string | React.ReactNode;
   variant: "TRANSPARENT" | "FILLED";
 }> = (props) => {
 
@@ -12,7 +12,7 @@ const Button: React.FC<{
     },
     {
       variant: "FILLED",
-      style: "bg-customgold px-8 py-3 flex items-center rounded-full font-semibold",
+      style: "bg-customorange px-12 py-5 flex items-center font-medium text-white text-sm",
     },
   ];
 
