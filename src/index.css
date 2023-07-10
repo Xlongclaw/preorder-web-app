@@ -10,9 +10,48 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+::-webkit-scrollbar{
+  width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #171717;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(255, 98, 0);
+
+  }
+
 .playfair-font{
   font-family: 'Playfair Display', serif;
 }
 .font1{
   font-family: 'Barlow Condensed', sans-serif;
+}
+.shadow1{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.shadow2{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.shadow3{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.shadow4{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.shadow5{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.active{
+  border-bottom: 2px solid rgb(255, 102, 0);
+  padding: 4px;
+  color: rgb(255, 102, 0);
+}
+
+.hidescroll::-webkit-scrollbar{
+  display: none;
 }

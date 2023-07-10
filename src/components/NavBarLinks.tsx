@@ -1,7 +1,7 @@
 import React from 'react'
 import Links from '../constants/NavBarLinks'
 import { NavLink } from 'react-router-dom'
-import {FiSearch,FiMenu} from "react-icons/fi"
+import {FiSearch,FiShoppingCart} from "react-icons/fi"
 
 
 const NavBarLinks:React.FC = () => {
@@ -12,7 +12,7 @@ const NavBarLinks:React.FC = () => {
           <NavLink key={link.title} to={link.link}>{link.title}</NavLink>)
       }
       <FiSearch size={24}/>
-      <FiMenu className='mx-12' size={28}/>
+      <FiShoppingCart className='mx-9' size={28}/>
     </div>
   )
 }
